@@ -18,4 +18,12 @@ public class Bullet : MonoBehaviour
         _rigidBody.velocity = direction.normalized * _speed;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out Enemy enemy))
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }

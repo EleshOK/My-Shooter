@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -923470503, guid: 506a36a2bd2856b41b9f08523ed04b70, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -147,10 +147,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d5195f074675e843978e0b4d0c6afd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 5
-  _healt: 15
-  _speed: 1
-  _spawn: {fileID: 0}
+  _damage: 1
+  _healt: 3
+  _speed: 2
+  _damageTimer: 1
+  _blood: {fileID: 8580348277817166694, guid: 3126a4082b55a9544893fc8453c2e3f7, type: 3}
 --- !u!95 &1556331274
 Animator:
   serializedVersion: 5
